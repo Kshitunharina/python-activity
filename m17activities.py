@@ -1,0 +1,1 @@
+# “Algorithm” basically means a step‑by‑step set of instructions to solve a problem or do a task.
