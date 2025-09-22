@@ -46,3 +46,56 @@ for ch in chars:
         print(ch, "is a Digit")
     else:
         print(ch, "is a Special Character")
+
+
+
+print("--- Check Age ---")
+age = 20
+if age < 13:
+    print("Child")
+elif age < 20:
+    print("Teenager")
+elif age < 60:
+    print("Adult")
+else:
+    print("Senior")
+
+print("\n--- Power Calculator ---")
+base = 2
+exponent = 5
+result = 1
+for i in range(exponent):
+    result *= base
+print(base, "raised to the power", exponent, "is", result)
+
+print("\n--- Reverse Order ---")
+numbers = [10, 20, 30, 40, 50]
+for i in range(len(numbers)-1, -1, -1):
+    print(numbers[i], end=' ')
+print()
+
+print("\n--- Binary Conversion ---")
+dec = 19
+binary = ''
+temp = dec
+while temp > 0:
+    binary = str(temp % 2) + binary
+    temp //= 2
+print("Binary of", dec, "is", binary)
+
+print("\n--- Mirrored Triangle ---")
+n = 5
+for i in range(1, n+1):
+    for j in range(n-i):
+        print(' ', end='')
+    for k in range(i):
+        print('*', end='')
+    print()
+
+print("\n--- Square Pattern ---")
+n = 5
+for i in range(n):
+    for j in range(n):
+        print('*', end=' ')
+    print()
+        
